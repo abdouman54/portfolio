@@ -1,22 +1,22 @@
 import React from 'react';
 import '../styles/Projects.css';
-import taskManagementImage from '../assets/task_management.jpg';
-import libraryManagementImage from '../assets/library_management.jpeg';
+import GeoquizzImage from '../assets/Geoquizz.jpg';
+import DeviseconverterImage from '../assets/curency app.jpg';
 
 const projects = [
   {
     id: 1,
-    title: 'Application de Gestion de Tâches',
-    description: 'Une application web permettant aux utilisateurs de créer, gérer et suivre leurs tâches quotidiennes.',
-    technologies: 'React, Node.js, Express, MongoDB',
-    image: taskManagementImage,
+    title: 'Application de Quiz Geographie',
+    description: 'Une application web permettant aux utilisateurs de tester leurs connaissances géographiques à travers divers quiz..',
+    technologies: 'Android Studio, Java',
+    image: GeoquizzImage,
   },
   {
     id: 2,
-    title: 'Système de Gestion Bibliothèque',
-    description: 'Un système de gestion pour les bibliothèques permettant de gérer les livres, les emprunts et les utilisateurs.',
-    technologies: 'Java, Spring Boot, MySQL',
-    image: libraryManagementImage,
+    title: 'Curency Converter',
+    description: 'Une application web permettant aux utilisateurs de convertir des devises en temps réel.',
+    technologies: 'C# ,Visual Studio',
+    image: DeviseconverterImage,
   },
   // Ajoutez plus de projets ici
 ];
