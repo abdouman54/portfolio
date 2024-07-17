@@ -1,6 +1,6 @@
 # Portfolio de Abderrahmane Allal
 
-Bienvenue dans mon portfolio ! Ce projet est une application web développée en React qui présente mes projets, mes compétences, et permet aux visiteurs de laisser des témoignages.
+Bienvenue dans mon portfolio ! Ce projet est une application web développée en React qui présente mes projets, mes compétences et permet aux visiteurs de laisser des témoignages.
 
 ## Fonctionnalités
 
@@ -10,25 +10,37 @@ Bienvenue dans mon portfolio ! Ce projet est une application web développée en
 - **Témoignages** : Les visiteurs peuvent consulter les témoignages laissés par d'autres utilisateurs et ajouter leurs propres témoignages.
 
 ## Technologies Utilisées
+
 - **Frontend** : React, CSS
 - **Backend** : (pas applicable)
 - **Base de Données** : (pas applicable)
 - **Autres** : [Autres technologies ou outils utilisés]
 
-
 ## Installation et Exécution
 
 1. **Clonez le dépôt** :
    ```bash
-   git clone https://github.com/abdouman54/portfolio/tree/master
+   git clone https://github.com/abdouman54/portfolio.git
    cd portfolio
+
+2. **Installez les dépendances** :
+   npm install
+
+3. **Lancez l'application :** :
+   npm start
+
+
+
 ## Contribuer
 
 Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre une pull request pour toute amélioration ou correction.
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](../LICENSE) pour plus de détails.
+
 
 ## Auteur
 - **Nom** : [Abderrahmane Allal]
