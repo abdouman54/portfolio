@@ -1,5 +1,5 @@
 .footer {
-  background-color: #333;
+  background-color: #333333;
   color: white;
   text-align: center;
   padding: 1rem 0;
@@ -7,14 +7,21 @@
   width: 100%;
 }
 
+.footer p {
+  margin: 0.5rem 0;
+}
+
 .footer a {
-  color: #007bff;
+  color: #FF9800;
   text-decoration: none;
   margin: 0 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #0056b3;
+  color: #E91E63;
 }
 
 .footer .social-links {
@@ -23,14 +30,20 @@
 
 .footer .social-links a {
   padding: 0.5rem 1rem;
-  background-color: #007bff;
+  background-color: #4CAF50;
   color: white;
   border-radius: 4px;
   text-decoration: none;
+  margin: 0 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
 }
 
 .footer .social-links a:hover {
-  background-color: #0056b3;
+  background-color: #388E3C;
 }
 
-  
+.footer .social-links i {
+  margin-right: 0.5rem;
+}

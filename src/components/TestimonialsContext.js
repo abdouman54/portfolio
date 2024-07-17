@@ -4,7 +4,7 @@ const TestimonialsContext = createContext();
 
 const TestimonialsProvider = ({ children }) => {
   const [testimonials, setTestimonials] = useState([
-    { id: 1, name: 'John Doe', message: 'Excellent service!' },
+    { id: 1, name: 'Peter John', message: 'Best Service!' },
     
   ]);
 

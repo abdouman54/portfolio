@@ -49,7 +49,7 @@ const AddTestimonials = () => {
     <div className="add-testimonials">
       <h1>Ajouter un Témoignage</h1>
       {submitted ? (
-        <p>Merci pour votre témoignage.</p>
+        <p className="success-message">Merci pour votre témoignage.</p>
       ) : (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -81,5 +81,3 @@ const AddTestimonials = () => {
 };
 
 export default AddTestimonials;
-
-

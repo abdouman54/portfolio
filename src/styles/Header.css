@@ -1,5 +1,5 @@
 header {
-  background-color: #333;
+  background-color: #3F51B5; /* Changed to a rich blue color */
   color: white;
   padding: 1rem 0;
   text-align: center;
@@ -29,10 +29,7 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #007bff;
+nav ul li a:hover,
+nav ul li a.active {
+  color: #FF9800; /* Orange for hover and active links */
 }
-
-
-
-  

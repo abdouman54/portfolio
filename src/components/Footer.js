@@ -3,12 +3,16 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p>&copy; 2024 Abderrahmane Allal. Tous droits réservés.</p>
-      <p>
-        <a href="https://github.com/abdouman54">GitHub</a> | 
-        <a href="https://www.linkedin.com/in/abderrahmane-allal//">LinkedIn</a>
-      </p>
+      <div className="social-links">
+        <a href="https://github.com/abdouman54" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/abderrahmane-allal/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
     </footer>
   );
 };
